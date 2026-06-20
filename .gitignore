@@ -1,0 +1,27 @@
+# Local BMAD / Claude tooling (installed per-machine, ~19M each — not project source)
+.agent/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Local data / vector store / db artifacts
+*.sqlite
+*.db
+corpus/embeddings/
+.chroma/
+
+# Env & secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
